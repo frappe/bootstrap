@@ -1,19 +1,73 @@
 // include in bootstrap.less
 
-@brand-primary:              #2980b9;
-@brand-warning:              #f39c12;
-@brand-danger:               #c0392b;
+
+@text-color:              	 #36414C;
+@link-color:              	 @brand-primary;
+@text-muted:			  	 #8D99A6;
+
+@font-size-h1:            	 24px;
+@font-size-h2:            	 20px;
+@font-size-h3:           	 18px;
+@font-size-h4:            	 16px;
+@font-size-h5:            	 @font-size-base;
+@font-size-h6:            	 12px;
+
+@brand-primary:              #5E64FF;
+@brand-warning:              #FFA00A;
+@brand-danger:               #FF5858;
+@brand-success:				 #98D85B;
+@brand-info:				 #935EFF;
 
 @state-warning-text:         #f39c12;
 @state-danger-text:          #c0392b;
 
-@input-border-focus:         #000;
+@input-border-focus:         #CED5DB;
 @alert-padding:              10px;
 @navbar-height:              36px;
 
-@link-color:                 #000;
-@link-hover-color:           @brand-primary;
-@font-family-sans-serif:     "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-sans-serif:     "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+@btn-default-color:			 inherit;
+@btn-default-bg:			 #F0F4F7;
+@btn-default-border:		 transparent;
+
+@label-color:			 	 inherit;
+@label-default-bg:			 #F0F4F7;
+@label-primary-bg:			 #D9F6FF;
+@label-success-bg:			 #E4FFC1;
+@label-info-bg:				 #E8DDFF;
+@label-warning-bg:			 #FFE6BF;
+@label-danger-bg:			 #FFDCDC;
+@badge-bg:					 @label-default-bg;
+@badge-color:				 @text-color;
+
+//** Global color for active items (e.g., navs or dropdowns).
+@component-active-color:     inherit;
+//** Global background color for active items (e.g., navs or dropdowns).
+@component-active-bg:        #F0F4F7;
+
+@panel-default-border:       #CED5DB;
+@panel-default-heading-bg:   #F7FAFC;
+
+@progress-bar-bg:            @text-color;
+
+@nav-link-hover-bg:				 @panel-default-heading-bg;
+@nav-pills-active-link-hover-bg: @panel-default-heading-bg;
+
+@state-success-text:         @brand-success;
+@state-success-bg:           transparent;
+
+@state-info-text:            @brand-info;
+@state-info-bg:              transparent;
+
+@state-warning-text:         @brand-warning;
+@state-warning-bg:           transparent;
+
+@state-danger-text:          @brand-danger;
+@state-danger-bg:            transparent;
+
+@modal-backdrop-bg:			 #334143;
+@hr-border:                  #d1d8dd;
 
 .alert {
     border: 1px solid transparent;
@@ -44,4 +98,12 @@ ol.with-margin li {
 
 a:hover, a:focus {
 	text-decoration: none;
+}
+
+h4.modal-title {
+	font-weight: normal;
+}
+
+.modal-content {
+	border-radius: 3px;
 }
