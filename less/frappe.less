@@ -4,6 +4,8 @@
 @text-color:              	 #36414C;
 @link-color:              	 @brand-primary;
 @text-muted:			  	 #8D99A6;
+@border-color:				 #d1d8dd;
+@light-bg:                   #fafbfc;
 
 @font-size-h1:            	 24px;
 @font-size-h2:            	 20px;
@@ -30,6 +32,9 @@
 @btn-default-color:			 inherit;
 @btn-default-bg:			 #F0F4F7;
 @btn-default-border:		 transparent;
+
+@btn-info-bg:                @text-muted;
+
 
 @label-color:			 	 inherit;
 @label-default-bg:			 #F0F4F7;
@@ -67,7 +72,11 @@
 @state-danger-bg:            transparent;
 
 @modal-backdrop-bg:			 #334143;
-@hr-border:                  #d1d8dd;
+@hr-border:                  @border-color;
+@table-border-color:         @border-color;
+
+@well-bg:					 @light-bg;
+@well-border:				 @border-color;
 
 .alert {
     border: 1px solid transparent;
