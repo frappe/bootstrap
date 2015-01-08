@@ -1,5 +1,5 @@
 /*!
- * Bootstrap v3.2.0 (http://getbootstrap.com)
+ * Bootstrap v3.3.1 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
@@ -5743,7 +5743,6 @@ button.close {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 1040;
   background-color: #334143;
 }
 .modal-backdrop.fade {
