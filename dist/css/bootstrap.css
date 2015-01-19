@@ -4245,9 +4245,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-form {
   padding: 10px 15px;
-  margin-top: 9px;
+  margin-top: 3px;
   margin-right: -15px;
-  margin-bottom: 9px;
+  margin-bottom: 3px;
   margin-left: -15px;
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
@@ -4337,8 +4337,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-bottom-left-radius: 0;
 }
 .navbar-btn {
-  margin-top: 9px;
-  margin-bottom: 9px;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 .navbar-btn.btn-sm {
   margin-top: 9px;
@@ -6568,10 +6568,7 @@ ol.with-margin li {
 }
 .form-control,
 .btn:active,
-.btn:focus,
-.btn.active,
-.btn-group .dropdown-toggle:active,
-.btn-group.open .dropdown-toggle {
+.btn:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
