@@ -34,6 +34,7 @@
 @navbar-default-link-color:  #6C7680;
 @navbar-default-brand-hover-color: #36414C;
 @navbar-default-link-hover-color:  #36414C;
+@dropdown-divider-bg:        #D8DFE5;
 
 @font-family-sans-serif:     "Helvetica Neue", Helvetica, Arial, sans-serif;
 
@@ -45,7 +46,7 @@
 
 
 @label-color:			 	 inherit;
-@label-default-bg:			 #F0F4F7;
+@label-default-bg:			 @btn-default-bg;
 @label-primary-bg:			 #D9F6FF;
 @label-success-bg:			 #E4FFC1;
 @label-info-bg:				 #E8DDFF;
@@ -57,7 +58,7 @@
 //** Global color for active items (e.g., navs or dropdowns).
 @component-active-color:     inherit;
 //** Global background color for active items (e.g., navs or dropdowns).
-@component-active-bg:        #F0F4F7;
+@component-active-bg:        @btn-default-bg;
 
 @panel-default-border:       #CED5DB;
 @panel-default-heading-bg:   #F7FAFC;
@@ -88,6 +89,8 @@
 
 @padding-base-vertical:      4px;
 @padding-base-horizontal:    10px;
+
+@dropdown-link-hover-bg:     @btn-default-bg;
 
 .alert {
     border: 1px solid transparent;
@@ -124,6 +127,10 @@ ol.with-margin li {
 .btn-group .dropdown-toggle:active,
 .btn-group.open .dropdown-toggle {
 	box-shadow: none;
+}
+
+a {
+	cursor: pointer;
 }
 
 a:hover, a:focus {
