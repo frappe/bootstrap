@@ -13,6 +13,7 @@
 @font-size-h4:            	 16px;
 @font-size-h5:            	 @font-size-base;
 @font-size-h6:            	 12px;
+@headings-line-height:       1.3em;
 
 @brand-primary:              #5E64FF;
 @brand-warning:              #FFA00A;
@@ -90,7 +91,34 @@
 @padding-base-vertical:      4px;
 @padding-base-horizontal:    10px;
 
-@dropdown-link-hover-bg:     @btn-default-bg;
+// Inverted navbar
+// Reset inverted navbar basics
+@navbar-inverse-color:                      #b8c2cb;
+@navbar-inverse-bg:                         #35414B;
+@navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);
+@navbar-inverse-control-background:         #475765;
+
+// Inverted navbar links
+@navbar-inverse-link-color:                 lighten(@gray-light, 15%);
+@navbar-inverse-link-hover-color:           #fff;
+@navbar-inverse-link-hover-bg:              transparent;
+@navbar-inverse-link-active-color:          @navbar-inverse-link-hover-color;
+@navbar-inverse-link-active-bg:             darken(@navbar-inverse-bg, 10%);
+@navbar-inverse-link-disabled-color:        #475765;
+@navbar-inverse-link-disabled-bg:           transparent;
+
+// Inverted navbar brand label
+@navbar-inverse-brand-color:                @navbar-inverse-link-color;
+@navbar-inverse-brand-hover-color:          #fff;
+@navbar-inverse-brand-hover-bg:             transparent;
+
+// Inverted navbar toggle
+@navbar-inverse-toggle-hover-bg:            #475765;
+@navbar-inverse-toggle-icon-bar-bg:         #fff;
+@navbar-inverse-toggle-border-color:        #475765;
+
+
+
 
 .alert {
     border: 1px solid transparent;
@@ -143,4 +171,22 @@ h4.modal-title {
 
 .modal-content {
 	border-radius: 3px;
+}
+
+.navbar-inverse .form-control {
+	color: @navbar-inverse-color;
+	border: 1px solid @navbar-inverse-control-background;
+	background-color: @navbar-inverse-control-background;
+}
+
+.navbar-inverse .form-control::-webkit-input-placeholder { color: @navbar-inverse-color; }
+.navbar-inverse .form-control::-moz-placeholder { color: @navbar-inverse-color; }
+.navbar-inverse .form-control:-ms-input-placeholder { color: @navbar-inverse-color; }
+
+.navbar-inverse .form-control:focus {
+	box-shadow: none;
+}
+
+.navbar-search-icon {
+	color: @navbar-inverse-color;
 }
