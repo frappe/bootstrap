@@ -2537,7 +2537,7 @@ output {
   color: #555;
   background-color: #fff;
   background-image: none;
-  border: 1px solid #ccc;
+  border: 1px solid #d1d8dd;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
@@ -2558,14 +2558,14 @@ output {
           box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 3px rgba(206, 213, 219, .6);
 }
 .form-control::-moz-placeholder {
-  color: #999;
+  color: #d1d8dd;
   opacity: 1;
 }
 .form-control:-ms-input-placeholder {
-  color: #999;
+  color: #d1d8dd;
 }
 .form-control::-webkit-input-placeholder {
-  color: #999;
+  color: #d1d8dd;
 }
 .form-control[disabled],
 .form-control[readonly],
@@ -3779,8 +3779,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   line-height: 1;
   color: #555;
   text-align: center;
-  background-color: #eee;
-  border: 1px solid #ccc;
+  background-color: #f0f4f7;
+  border: 1px solid #d1d8dd;
   border-radius: 4px;
 }
 .input-group-addon.input-sm {
@@ -4928,44 +4928,44 @@ a.thumbnail.active {
 }
 .alert-success {
   color: #98d85b;
-  background-color: #e4ffc1;
-  border-color: rgba(0, 0, 0, 0);
+  background-color: rgba(255, 255, 255, .9);
+  border-color: #98d85b;
 }
 .alert-success hr {
-  border-top-color: rgba(0, 0, 0, 0);
+  border-top-color: #8bd346;
 }
 .alert-success .alert-link {
   color: #7ece32;
 }
 .alert-info {
   color: #935eff;
-  background-color: #e8ddff;
-  border-color: rgba(0, 0, 0, 0);
+  background-color: rgba(255, 255, 255, .9);
+  border-color: #935eff;
 }
 .alert-info hr {
-  border-top-color: rgba(0, 0, 0, 0);
+  border-top-color: #8244ff;
 }
 .alert-info .alert-link {
   color: #712bff;
 }
 .alert-warning {
   color: #ffa00a;
-  background-color: #ffe6bf;
-  border-color: rgba(0, 0, 0, 0);
+  background-color: rgba(255, 255, 255, .9);
+  border-color: #ffa00a;
 }
 .alert-warning hr {
-  border-top-color: rgba(0, 0, 0, 0);
+  border-top-color: #f09300;
 }
 .alert-warning .alert-link {
   color: #d68300;
 }
 .alert-danger {
   color: #ff5858;
-  background-color: #ffdcdc;
-  border-color: rgba(0, 0, 0, 0);
+  background-color: rgba(255, 255, 255, .9);
+  border-color: #ff5858;
 }
 .alert-danger hr {
-  border-top-color: rgba(0, 0, 0, 0);
+  border-top-color: #ff3f3f;
 }
 .alert-danger .alert-link {
   color: #ff2525;
@@ -6551,9 +6551,6 @@ button.close {
   .hidden-print {
     display: none !important;
   }
-}
-.alert {
-  border: 1px solid transparent;
 }
 .list-group-item {
   padding: 8px 15px;
