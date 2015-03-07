@@ -18,9 +18,9 @@
 @headings-line-height:       1.3em;
 
 @brand-primary:              #5E64FF;
-@brand-warning:              #FFA00A;
-@brand-danger:               #FF5858;
-@brand-success:				 #98D85B;
+@brand-warning:              #ff9500;
+@brand-danger:               #ff3b30;
+@brand-success:				 #0bd318;
 @brand-info:				 #935EFF;
 
 @state-warning-text:         #f39c12;
@@ -181,6 +181,11 @@ a {
 
 a:hover, a:focus {
 	text-decoration: none;
+    border-bottom: 1px solid @link-color;
+}
+
+.navbar a:hover, .navbar a:focus, .dropdown-menu a:hover, .dropdown-menu a:focus{
+    border-bottom: none;
 }
 
 h4.modal-title {
