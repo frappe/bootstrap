@@ -6580,7 +6580,13 @@ a {
 }
 a:hover,
 a:focus {
-  text-decoration: none;
+  text-decoration: underline;
+}
+.navbar a:hover,
+.navbar a:focus,
+.dropdown-menu a:hover,
+.dropdown-menu a:focus {
+  border-bottom: none;
 }
 h4.modal-title {
   font-weight: normal;
